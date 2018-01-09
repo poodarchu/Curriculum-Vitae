@@ -67,17 +67,17 @@ Computer Vision
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-\subsection{Programming Languages}
+\subsection{Languages}
 \location{Proficient:}
-C++ \textbullet{} Python \textbullet{} MongoDB \\
+C++ \textbullet{} Python \\
 \location{Familiar:}
-Scala \textbullet{} MATLAB \textbullet{} Java \textbullet{} Swift\\
+Java \textbullet{} Swift \\
 
 \sectionsep % Some whitespace after the section
 
 \subsection{Frameworks}
 %\location{Korean (native), English (advance), Chinese (basic)}
-Tensorflow \textbullet{} MXNet \textbullet{} OpenMP \textbullet{} MPI \textbullet{} CUDA \textbullet{} OpenCV \textbullet{} iOS
+Tensorflow \textbullet{} MXNet \textbullet{} OpenMP \textbullet{} MPI \textbullet{} CUDA \textbullet{} OpenCV \textbullet{} iOS \textbullet{} MongoDB
 
 \sectionsep
 
@@ -85,10 +85,9 @@ Tensorflow \textbullet{} MXNet \textbullet{} OpenMP \textbullet{} MPI \textbulle
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Awards} 
-Coming...
-%Github:// \href{https://github.com/poodarchu}{\custombold{poodarchu}} \\
-%LinkedIn://  \href{https://www.linkedin.com/in/poodar-chu-223163111}{\custombold{poodarchu}} \\
+\section{Links} 
+Github:// \href{https://github.com/poodarchu}{\custombold{poodarchu}} \\
+LinkedIn://  \href{https://www.linkedin.com/in/poodar-chu-223163111}{\custombold{poodarchu}} \\
 %Twitter://  \href{https://twitter.com/poodarchu}{\custombold{@poodarchu}} \\
 \sectionsep
 
@@ -108,29 +107,40 @@ Coming...
 
 \section{Internship}
 
-\runsubsection{DiDi Research Institute}
+\runsubsection{Alibaba}
+\descript{| Algorithm Engineer - Machine Learning}
+\location{Nov. 2017 – Now | HangZhou, Zhejiang, China}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Participating in design and development of YouKu's video recommendation models. Build recommend pipeline on MaxCompute.
+\item Feature Engineering from user logs, using features like FP-growth, ctr, vv, ts and embedding methods like Word2Vec to train GBDT, LR and DNN models ON PAI(integrate Tensorflow). Then use the above method to do item2show, show2show recommendation.
+\vspace{\topsep}
+\end{tightemize}
+
+\runsubsection{DiDi AI Lab}
 \descript{| Speech Recognition Research Intern}
-\location{Jul. 2017 – Nov. 2017 | Beijing, CN}
+\location{Jul. 2017 – Nov. 2017 | Beijing, China}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item Engaged in voice recognition algorithms, speech recognition engine and related product development. 
-%\item Assisted a Lecture of Stochastic Processes (in Fall 2013) 
+\item Keep track of cutting-edge outputs and integrate into our exist speech recognition models, such as dann, segan.
+\vspace{\topsep}
 \end{tightemize}
 
 %------------------------------------------------
-\sectionsep % Some whitespace after the section
+%\sectionsep % Some whitespace after the section
 %------------------------------------------------
 
-\runsubsection{GZ Key Laboratory of Robotics and Intelligent Software}
-\descript{| Research Assistant}
-\location{Oct. 2015 – Jun. 2017 | GuangZhou, CN}
-%\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}
-%\item Plan \& Executed 1st INFORMS UH Conference (Apr 2015).
-\item Doing Research in Machine Learning and Recommendation, writing papers.
-\item Collecting data, design and implement algorithms.
-\item Participating in Competitions like CCF Data Foundation and Kaggle.
-\end{tightemize}
+%\runsubsection{GZ Key Laboratory of Robotics and Intelligent Software}
+%\descript{| Research Assistant}
+%\location{Oct. 2015 – Jun. 2017 | GuangZhou, CN}
+%%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+%\begin{tightemize}
+%%\item Plan \& Executed 1st INFORMS UH Conference (Apr 2015).
+%\item Doing Research in Machine Learning and Recommendation, writing papers.
+%\item Collecting data, design and implement algorithms.
+%\item Participating in Competitions like CCF Data Foundation and Kaggle.
+%\end{tightemize}
 
 \sectionsep
 
@@ -139,55 +149,80 @@ Coming...
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Research/Projects}
 
-\runsubsection {Curiosity-LSTM}
-\descript {| MXNet}
-\location {Apr. 2017 - NOW}
+%\runsubsection {Curiosity-LSTM}
+%\descript {| MXNet}
+%\location {Apr. 2017 - NOW}
+%\begin{tightemize}
+%\item Define the item novelty criteria and reconstruct LSTM to fit novelty, then implement the model.
+%\end{tightemize}
+
+%\sectionsep % Some whitespace after the section
+
+\runsubsection {Edge Detection Using DCNN and TL}
+\descript {| TF}
+%\descript {}
+\location {Dec. 2017 - Now}
 \begin{tightemize}
-\item Define the item novelty criteria and reconstruct LSTM to fit novelty, then implement the model.
+\item Design a convolution + deconvolution architecture to detect edges/segment objects. Use BSD500 + Pascal VOC 2012 to train the model.
+\item Use continuous smaller filter to replace larger filters of the same capability.
+\end{tightemize}
+
+\sectionsep % Some whitespace after the section
+
+\runsubsection {Domain Adversarial Speech Recognition}
+\descript {| TF/IML}
+%\descript {}
+\location {Jul. 2017 - Sep. 2017}
+\begin{tightemize}
+\item Add domain adversarial layers to our speech recognition pipeline.
+\item Use gradient reversal layer to subtract domain specific labels from source domain, improve regularization. WER drops 1\% approximately.
+\item Use GAN to generate enhanced audio data(0db, 5db, 10db, 15db).
 \end{tightemize}
 
 \sectionsep % Some whitespace after the section
 
 \runsubsection {Deep Audio-based Music Recommendation}
-\descript {| MXNet}
+\descript {| MX}
+%\descript {}
 \location {Jul. 2016 - Jul. 2017}
 \begin{tightemize}
 \item Collect MSD, EchoNest Taste Profile, and 7Digital Audio Clips Datasets.
-\item Use a CNN(4 ConvLayer+ReLU+Maxpooling + 3 FullConnectedLayer) to extraction frame-level features of audio signals.
+\item Use a CNN(4 [ConvLayer+ReLU+Maxpooling]s + 3 Fully Connected Layers) to extraction frame-level features of audio signals.
 \item Improve the accuracy of the music recommendation by positioning target songs in collaborative filtering latent space.
 \end{tightemize}
 
 \sectionsep % Some whitespace after the section
 
-\runsubsection {Sogou Persona Prediction}
-\descript {| CCF DF Competition, MXNet}
-\location {Nov. 2016}
-\begin{tightemize}
-\item Apply LDA to each user's query list to draw topic features.
-\item Use SVM and LSTM network to produce the predictions.
-\end{tightemize}
+%\runsubsection {Sogou Persona Prediction}
+%%\descript {| CCF DF Competition, MXNet}
+%\descript {}
+%\location {Nov. 2016}
+%\begin{tightemize}
+%\item Apply LDA to each user's query list to draw topic features.
+%\item Use SVM and LSTM network to produce the predictions.
+%\end{tightemize}
 
-\sectionsep % Some whitespace after the section
+%\sectionsep % Some whitespace after the section
 
 \runsubsection {UIS: A novel Social Network User Recommendation framework}
 \descript {| Java}
 \location {Oct. 2015 - Oct. 2016}
 \begin{tightemize}
-\item Implement our improved LDA model(combine LDA and GPU) and do parameters tuning.
-\item Summarize experiment results and write the thesis.
+\item Implement our modified LDA model(integrate LDA and General Polya' Urn).
+\item Convert topics into communities, then perform matrix factorization to recommend users.
 \end{tightemize}
 
 \sectionsep % Some whitespace after the section
 
-\runsubsection {Gitsoo: An academic vertical searching engine}
-\descript {| Java}
-\location {Dec. 2015 - Aug. 2016}
-\begin{tightemize}
-\item Responsible for the search, sorting algorithm development and data indexing.
-\item Responsible for the development of data crawling, MongoDB data storage, and backend Lucene search engine services.
-\end{tightemize}
+%\runsubsection {Gitsoo: An academic vertical searching engine}
+%\descript {| C++/Java}
+%\location {Dec. 2015 - Aug. 2016}
+%\begin{tightemize}
+%\item Write indexing, query, and store parts of the C++ off-line search engine.
+%\item Responsible for the development of data crawling(Scrapy), MongoDB data storage, and backend Lucene search engine services.
+%\end{tightemize}
 
-\sectionsep % Some whitespace after the section
+%\sectionsep % Some whitespace after the section
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     RESEARCH
@@ -197,7 +232,7 @@ Coming...
 \sectionsep % Some whitespace after the section
 
 \begin{tightemize}
-\item Ke Xu, Xushen Zheng, Benjin Zhu, Yi Cai, Huaqing Min, {"Improving User Recommendation by Extracting Social Topics and Interest Topics of Users in Uni-Directional Social Networks,"} submitted to Knowledge Based System.
+\item Ke Xu, Xushen Zheng, \textbf{Benjin Zhu}, Yi Cai, Huaqing Min, {"Improving User Recommendation by Extracting Social Topics and Interest Topics of Users in Uni-Directional Social Networks,"} submitted to KBS.
 %item Cho, J., J Lim, G., Biobaku, T., Bora, S., and Parsaei, H, \textbf{“Liquefied Natural Gas Ship Route Planning Model Considering Market Trend,”} Transactions on Maritime Science, 3(02), 119- 130.
 \end{tightemize}
 
